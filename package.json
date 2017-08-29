@@ -1,0 +1,27 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "redis node test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-redis"
+  },
+  "keywords": [
+    "redis",
+    "node"
+  ],
+  "author": "Subodh Tiwari <tiwarisubodh@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/hapi": "^16.1.8",
+    "@types/joi": "^10.4.1",
+    "hapi": "^16.5.2",
+    "ioredis": "^3.1.2",
+    "joi": "^10.6.0",
+    "typings": "^2.1.1"
+  }
+}
